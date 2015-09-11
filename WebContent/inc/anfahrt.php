@@ -1,8 +1,6 @@
 <article class="post post-listing">
 	<div class="post-inner">
 		<h1 class="post-title">Anfahrt mit dem Auto</h1>
-	    <p class="post-meta">
-	    </p>
 	    
 	<div class="clear"></div>
 	
