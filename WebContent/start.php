@@ -20,19 +20,7 @@
     
 	<!-- Viewport skalliert die Seite für Mobile-Devices Faktor 1 = 100% -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!--Javascriptbibliotheken einbinden-->
-	    <script type="text/javascript" src="js/jquery.js"></script>
-	    <script type="text/javascript" src="js/jquery.tipsy.js"></script>
-	    <script type="text/javascript" src="js/jquery_start.js"></script>
-			<!-- Quelle jQuery Scroll to Top Control script - http://www.dynamicdrive.com. -->
-	    <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
-	    	<!--Quelle http://tympanus.net/Tutorials/ElasticSlideshow/ -->
-		<script type="text/javascript" src="js/jquery.eislideshow.js"></script>
-	    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <!-- Javascriptbibliotheken einbinden ENDE /-->
-    
-    <!-- Background muss hier eingebunden werden sonst wird er nicht angezeigt?! -->
+
     <style type="text/css" media="screen"> 
 		body {background:  url(img/background.jpg)  no-repeat center center fixed; 
 			-webkit-background-size: cover;
