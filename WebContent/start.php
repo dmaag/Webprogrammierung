@@ -95,6 +95,23 @@
 							?>
 						</div>
 				</div>
+				
+				<!-- Dropdownmenü wird angezeigt, wenn Screen schmal wird Mobile-->
+				<select id="main-menu-mob" onchange="location = this.options[this.selectedIndex].value;">
+					<option value="" selected="selected">>> Go to...</option>
+					<option value="start.php?cat=Startseite">>> Startseite</option>
+					
+					<option value="start.php?cat=vorstand&activemenu=2">---Vorstand</option>
+					<option value="start.php?cat=geschaeftsstelle&activemenu=2">--- Geschäftsstelle</option>
+					<option value="start.php?cat=mitgliedschaft&activemenu=3">>> Mitgliedschaft</option>
+					<option value="start.php?cat=login&activemenu=3">--- Anmeldung</option>
+					<option value="start.php?cat=signup&activemenu=3">--- Registrierung</option>
+					<option value="start.php?cat=days&activemenu=4">--- Days</option>
+					<option value="start.php?cat=turniere&activemenu=4">--- Turniere</option>
+					<option value="start.php?cat=kontakt&activemenu=5">--- Kontakt</option>
+					<option value="start.php?cat=anfahrt&activemenu=5">--- Anfahrt</option>
+					<option value="start.php?cat=impressum&activemenu=6">>> Impressum</option>
+				</select>	
 		</nav><!-- .main-nav /-->
 	
 	</header><!-- #header /-->
