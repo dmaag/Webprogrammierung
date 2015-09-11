@@ -12,10 +12,6 @@
 		<p>Herzlich willkommen auf der Internetpräsens des Golfclub DHBW! Seit 2007 organisieren wir Events und Partien für die golfbegeisterten Studenten der dualen Hochschule Baden-Würtemmberg.</p>
 		<p> Wir freuen uns über die großartige Zusammarbeit der lokalen Golfclubs mit den verschiedenen Standorten der DHBW, die immer wieder einzigartige Turniere organisieren.</p>
 		
-		<div class="box info alignright">
-			Lassen Sie sich die Chance nicht entgehen und melden Sie sich noch heute zum Monnemer Morgengolf am 17. Mai 2015 an!
-		</div>	
-		
 		<p>Viel Spaß und frohes Spiel!<br>- <em> Ihr GC DHBW Team</em></p>		
 	</div><!-- .text /-->
 		

@@ -39,7 +39,7 @@
 			<nav id="main-nav">
 			
 				<div class="main-menu"><ul class="menu">
-					<li class="menu-item menu-item-home <?php if(!isset ($_GET['activemenu'])){echo'current-meno-item';}?>">
+					<li class="menu-item <?php if(!isset ($_GET['activemenu'])){echo'current-meno-item';}?>">
 						<a href="start.php?cat=Startseite">Startseite</a>
 					</li>
 					<li class="menu-item <?php if($_GET['activemenu']==2){echo'current-menu-item';}?>">
@@ -73,6 +73,9 @@
 					</li>
 					<li class="menu-item <?php if($_GET['activemenu']==6){echo'current-meno-item';}?>">
 						<a href="start.php?cat=impressum&activemenu=6">Impressum</a>
+					</li>
+					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
+						<a href="start.php?cat=ajaxtest&activemenu=7">Test AJAX</a>
 					</li>
 				</ul>
 						<div class="menu-item" align="right">
@@ -122,6 +125,7 @@
 				case 'kontakt': include 'inc/kontakt.php';break;
 				case 'anfahrt': include 'inc/anfahrt.php';break;
 				case 'impressum': include 'inc/impressum.php';break;
+				case 'ajaxtest': include 'inc/ajaxtest.php'; break;
 				default: include 'inc/Startseite.php';break;
 			}
 			
@@ -148,8 +152,8 @@
     
 <div class="footer-bottom" id="footer" >
 		<div class="alignleft" id="socialmedia">
-			<a href="https://www.facebook.com/GCDHBW" id="facebook"><img src="img/social-icons/facebook.png" alt="facebook" width="20px"></a>
-			<a href="https://www.facebook.com/GCDHBW" id="twitter"><img src="img/social-icons/twitter_32.png" alt="twitter" width="20px"></a>
+			<a href="https://www.facebook.com/GCDHBW" id="facebook" target="_blank"><img src="img/social-icons/facebook.png" alt="facebook" width="20px"></a>
+			<a href="https://www.facebook.com/GCDHBW" id="twitter" target="_blank"><img src="img/social-icons/twitter_32.png" alt="twitter" width="20px"></a>
 		</div>
 		<div class="alignright" id="copyright">	
 			<a href="start.php">GC DHBW</a> © Copyright 2015 by Denis Maag und Steffen Schmitz
