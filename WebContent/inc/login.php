@@ -15,7 +15,7 @@
 				<br><br>
 				<input type="submit" value="Anmelden">
 			</form>	
-		<p>Noch kein Mitglied <a href="inc/signup.php">hier</a> registrieren.</p>
+		<p>Noch kein Mitglied <a href="start.php?cat=signup&activemenu=3">hier</a> registrieren.</p>
 	</div><!-- .text /-->
 		
 	</div><!-- .post-inner /-->

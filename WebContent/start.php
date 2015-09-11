@@ -17,6 +17,45 @@
 	    <link rel="stylesheet" type="text/css" href="css/contactform.css">
 	 
 	<!-- Stylesheetdateien ENDE /-->
+	
+	<script type="text/javascript">
+        
+        function doIt() {
+ 
+            //erstellen des requests
+            var req = new XMLHttpRequest();
+
+            var number = Math.floor(Math.random() * 3) + 1  ;
+            var url;
+
+            switch(number) {
+            case 1:
+            	url = 'http://localhost/xampp/webprogrammierung/WebContent/inc/funfacts/sheepfarm.txt';
+                break;
+            case 2:
+            	url = 'http://localhost/xampp/webprogrammierung/WebContent/inc/funfacts/wood.txt';
+                break;
+            case 3:
+            	url = 'http://localhost/xampp/webprogrammierung/WebContent/inc/funfacts/lorem.txt';
+                break;
+            default:
+                url = 'http://localhost/xampp/webprogrammierung/WebContent/inc/funfacts/hello.txt';
+        	}
+
+            //request ist asynchron
+            req.open("GET", url, true);
+ 
+            req.onreadystatechange = function() {
+            
+                 var result = "<p>" + req.responseText + "</p>";
+                 document.getElementById('eins').innerHTML = result;  
+                
+            }
+ 
+            req.send(null);
+        }
+ 
+    </script>
     
 	<!-- Viewport skalliert die Seite für Mobile-Devices Faktor 1 = 100% -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -75,7 +114,7 @@
 						<a href="start.php?cat=impressum&activemenu=6">Impressum</a>
 					</li>
 					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
-						<a href="start.php?cat=ajaxtest&activemenu=7">Test AJAX</a>
+						<a href="start.php?cat=funfacts&activemenu=7">Fun Facts</a>
 					</li>
 				</ul>
 						<div class="menu-item" align="right">
@@ -102,6 +141,7 @@
 					<option value="start.php?cat=kontakt&activemenu=5">--- Kontakt</option>
 					<option value="start.php?cat=anfahrt&activemenu=5">--- Anfahrt</option>
 					<option value="start.php?cat=impressum&activemenu=6">>> Impressum</option>
+					<option value="start.php?cat=funfacts&activemenu=7">>> Fun Facts</option>
 				</select>	
 		</nav><!-- .main-nav /-->
 	
@@ -125,7 +165,7 @@
 				case 'kontakt': include 'inc/kontakt.php';break;
 				case 'anfahrt': include 'inc/anfahrt.php';break;
 				case 'impressum': include 'inc/impressum.php';break;
-				case 'ajaxtest': include 'inc/ajaxtest.php'; break;
+				case 'funfacts': include 'inc/funfacts.php'; break;
 				default: include 'inc/Startseite.php';break;
 			}
 			
