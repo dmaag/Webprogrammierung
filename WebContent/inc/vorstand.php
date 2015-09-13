@@ -34,6 +34,7 @@
 	<div class="clear"></div>
 	
 	<div class="text" id="Gruender">
+	<img src="img/denisM.jpeg" alt="denismaag" width="150px" align="right">
 		<p>
 		<b>Name:</b> Denis Maag</br>
 		</br>

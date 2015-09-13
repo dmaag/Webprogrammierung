@@ -193,7 +193,8 @@
 <div class="footer-bottom" id="footer" >
 		<div class="alignleft" id="socialmedia">
 			<a href="https://www.facebook.com/GCDHBW" id="facebook" target="_blank"><img src="img/social-icons/facebook.png" alt="facebook" width="20px"></a>
-			<a href="https://www.facebook.com/GCDHBW" id="twitter" target="_blank"><img src="img/social-icons/twitter_32.png" alt="twitter" width="20px"></a>
+			<a href="https://plus.google.com/" id="Google+" target="_blank"><img src="img/social-icons/Google+.svg" alt="Google+" width="20px"></a>
+			<a href="https://twitter.com/?lang=de" id="Twitter" target="_blank"><img src="img/social-icons/Twitter.png" alt="Twitter" width="20px"></a>
 		</div>
 		<div class="alignright" id="copyright">	
 			<a href="start.php">GC DHBW</a> © Copyright 2015 by Denis Maag und Steffen Schmitz
