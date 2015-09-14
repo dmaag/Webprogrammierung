@@ -114,11 +114,11 @@
 						<a href="start.php?cat=impressum&activemenu=6">Impressum</a>
 					</li>
 					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
-						<a href="start.php?cat=funfacts&activemenu=7">Fun Facts</a>
-					</li>
-					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
-						<a href="start.php?cat=servlet&activemenu=8">Servlet Test</a>
-					</li>
+						<a href="start.php?cat=funfacts&activemenu=7">Extras<span class="sub-indicator"></span></a>
+						<ul class="sub-menu">
+							<li class="menu-item"><a href="start.php?cat=funfacts&activemenu=7">Fun Facts</a></li>
+							<li class="menu-item"><a href="start.php?cat=localstorage&activemenu=7">Caddy Tool</a></li>
+							<li class="menu-item"><a href="start.php?cat=servlet&activemenu=7">Servlet Test</a></li>
 				</ul>
 						<div class="menu-item" align="right">
 							<?php
@@ -145,7 +145,7 @@
 					<option value="start.php?cat=anfahrt&activemenu=5">--- Anfahrt</option>
 					<option value="start.php?cat=impressum&activemenu=6">>> Impressum</option>
 					<option value="start.php?cat=funfacts&activemenu=7">>> Fun Facts</option>
-					<option value="start.php?cat=servlet&activemenu=8">>> Servlet Test</option>
+					<option value="start.php?cat=servlet&activemenu=7">>> Servlet Test</option>
 				</select>	
 		</nav><!-- .main-nav /-->
 	
@@ -171,6 +171,7 @@
 				case 'impressum': include 'inc/impressum.php';break;
 				case 'funfacts': include 'inc/funfacts.php'; break;
 				case 'servlet': include 'inc/servlettest.php'; break;
+				case 'localstorage': include 'inc/localstorage.php'; break;
 				default: include 'inc/Startseite.php';break;
 			}
 			
