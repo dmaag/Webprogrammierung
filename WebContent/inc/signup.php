@@ -1,6 +1,6 @@
 <article class="post post-listing">
 	<div class="post-inner">
-		<h1 class="post-title">Registrierung</h1>
+		<h1 class="post-title">Registrierung!!!</h1>
 	    
 	    
 	<div class="clear"></div>
