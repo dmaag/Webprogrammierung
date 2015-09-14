@@ -116,6 +116,9 @@
 					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
 						<a href="start.php?cat=funfacts&activemenu=7">Fun Facts</a>
 					</li>
+					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
+						<a href="start.php?cat=servlet&activemenu=8">Servlet Test</a>
+					</li>
 				</ul>
 						<div class="menu-item" align="right">
 							<?php
@@ -142,6 +145,7 @@
 					<option value="start.php?cat=anfahrt&activemenu=5">--- Anfahrt</option>
 					<option value="start.php?cat=impressum&activemenu=6">>> Impressum</option>
 					<option value="start.php?cat=funfacts&activemenu=7">>> Fun Facts</option>
+					<option value="start.php?cat=servlet&activemenu=8">>> Servlet Test</option>
 				</select>	
 		</nav><!-- .main-nav /-->
 	
@@ -166,6 +170,7 @@
 				case 'anfahrt': include 'inc/anfahrt.php';break;
 				case 'impressum': include 'inc/impressum.php';break;
 				case 'funfacts': include 'inc/funfacts.php'; break;
+				case 'servlet': include 'inc/servlettest.php'; break;
 				default: include 'inc/Startseite.php';break;
 			}
 			
@@ -193,8 +198,7 @@
 <div class="footer-bottom" id="footer" >
 		<div class="alignleft" id="socialmedia">
 			<a href="https://www.facebook.com/GCDHBW" id="facebook" target="_blank"><img src="img/social-icons/facebook.png" alt="facebook" width="20px"></a>
-			<a href="https://plus.google.com/" id="Google+" target="_blank"><img src="img/social-icons/Google+.svg" alt="Google+" width="20px"></a>
-			<a href="https://twitter.com/?lang=de" id="Twitter" target="_blank"><img src="img/social-icons/Twitter.png" alt="Twitter" width="20px"></a>
+			<a href="https://www.facebook.com/GCDHBW" id="twitter" target="_blank"><img src="img/social-icons/twitter_32.png" alt="twitter" width="20px"></a>
 		</div>
 		<div class="alignright" id="copyright">	
 			<a href="start.php">GC DHBW</a> © Copyright 2015 by Denis Maag und Steffen Schmitz

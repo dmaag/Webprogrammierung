@@ -21,8 +21,6 @@ if($NumRows != 0)
 		
 	}
 	setcookie("login", $Vorname, 0 , "/");
-	
-	
 }
 else
 {
