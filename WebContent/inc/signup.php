@@ -25,7 +25,6 @@
 				<br><br>
 				<input type="submit" value="Registrieren">
 			</form>	
-	<p>lulz</p>
 	</div><!-- .text /-->
 		
 	</div><!-- .post-inner /-->

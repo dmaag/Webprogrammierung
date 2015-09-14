@@ -120,7 +120,7 @@
 						<div class="menu-item" align="right">
 							<?php
 							if(isset($_COOKIE['login'])) {
-								echo "Hello " . $_COOKIE['login'];
+								echo "Hallo " . $_COOKIE['login'];
 							}
 							?>
 						</div>
