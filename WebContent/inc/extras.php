@@ -5,9 +5,13 @@
 	    
 	<div class="clear"></div>
  	<div class="text">
- 	 	<body onload="checkCookie()">
- 	 	<p>Noch kein Mitglied?</p>
+ 	<div id="extratext">
+ 	<body onload="checkCookie()">
+ 	 	<p>Der GC DHBW bietet viele extras Tools für alle Mitglieder.
+ 	 	<a href="./inc/signup.php">Noch kein Mitglied?</a></p>
  	 	</body>
+ 	</div>
+ 	 	
 	</div><!-- .text /-->
 	</div><!-- .post-inner /-->
 </article>

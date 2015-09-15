@@ -214,6 +214,14 @@ header {
 		float: right;
 		
 		}
+		#Logout2{
+		background-color:transparent !important;
+		}
+		#Logout2 .submit {
+		margin-top: 18px;
+		background-color:transparent !important;
+		
+		}
 
 /* ---------------------------------------------
  Content

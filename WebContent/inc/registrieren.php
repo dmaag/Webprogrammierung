@@ -38,7 +38,7 @@ $ergebnis = mysql_query("SELECT `e-mail` FROM `user` WHERE `e-mail` = '$email'")
 			{
 				$Query = mysql_query("INSERT INTO `webproggen`.`user`
 						(`anmeldename`, `e-mail`, `vorname`, `nachname`, `passwort`)
-						VALUES ('$login', '$password', '$vorname', '$nachname', '$email')");
+						VALUES ('$login', '$email', '$vorname', '$nachname', '$password')");
 				if ($Query == true){
 					echo "Registrierung erfolgreich!";
 					return;

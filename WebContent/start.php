@@ -90,13 +90,18 @@
 						<div class="main-item" align="right" ">
 						<div class="cookie">
 						<li>
-							<?php
+						<!-- 	<?php
 							if(isset($_COOKIE['login'])) {
 								echo "Hallo " . $_COOKIE['login'];
 							}
-							?>
-							</li>
+							?>-->
+							</li> 
 							</div>
+							<form align="right" id="Logout2" name="logout" method="post" action="./inc/logout.php">
+  							<label class="logoutLblPos">
+  							<input name="submit" class="submit" type="submit" value="Abmelden" onsubmit="logout()">
+ 							 </label>
+							</form>
 						</div>
 				</div>
 				

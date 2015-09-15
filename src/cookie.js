@@ -13,8 +13,7 @@ function getCookie(login) {
 function checkCookie() {
     var user = getCookie("login");
     if (user != "") {
-        
-        p.appendChild(document.createTextNode("Your shopping cart is empty"));
+    document.getElementsByTagName('p')[0].innerHTML = 'Hallo'+' ' +user+ '! '+'Hier gehts zu unseren Extras.' ;
     } else {
         user = prompt("Please enter your name:", "");
         if (user != "" && user != null) {
