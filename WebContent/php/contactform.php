@@ -6,7 +6,13 @@
 </head>
 <body>
 <?php
+// Ganz oben, vor irgendeiner Ausgabe: //
+session_start();
 
+// Bearbeiten des Formulars //
+if ($_POST['captcha_code'] == $_SESSION['captcha_spam']) {
+	// Das Captcha wurde korrekt ausgefüllt //
+	
 $betreff = $_POST['betreff'];
 $from = "From: ";
 $from .= $_POST['name'];
@@ -23,6 +29,11 @@ echo "Vielen Dank - Ihre Nachricht wurde gesendet";
 
 // If you are not redirected automatically, follow the <a href='WebContent/start.php'>link.</a>
 
+} else {
+		// Captcha wurde falsch ausgefüllt, Fehler ausgeben. //
+		echo 'Du hast den Captcha-Code falsch eingegeben!';
+	}
 ?>
+
 </body>
 </html>

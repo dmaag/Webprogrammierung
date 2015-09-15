@@ -29,8 +29,13 @@
 	<td><textarea name="nachricht" cols="40" rows="10" style="white-space: nowrap;"></textarea></td>
 </tr>
 <tr>
-
-	<td style="width:150px">&nbsp;</td>
+<td></td>
+<td><img src="inc/captcha.php" alt="Captcha" title="Captcha - Bitte Zeichen in das Feld eingeben" width=140 height=40 />
+<tr>
+<td><td><input type="text" name="captcha_code" size=10 />
+</tr>	<td style="width:150px">&nbsp;</td>
+</tr>
+<tr>
 	<td><input type="submit" value="Abschicken" name="submit" />
 </tr>
 </table>
