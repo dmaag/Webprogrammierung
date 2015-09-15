@@ -9,7 +9,7 @@
 	<div class="text">
 		<!-- Hier kommt der Text -->
 		
-		<iframe scrolling="no" src="http://localhost:8080/GCDHBW/DatenbankServlet"></iframe>
+		<iframe scrolling="no" src="http://localhost:8080/gcdhbw/DatenbankServlet"></iframe>
 								
 	</div><!-- .text /-->
 		

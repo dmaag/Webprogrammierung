@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Aufgabenplaner mit localStorage</title>   
+        <title>Aufgabenplaner mit LocalStorage</title>   
     </head>
      <script type="text/javascript" src="../src/storage.js"></script>
 	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>

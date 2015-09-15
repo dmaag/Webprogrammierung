@@ -28,11 +28,11 @@
 	<div class="clear"></div>
 	
 	<div class="text">
-		<p>Pünktlich zum Frühlingsanfang starten wir mit unserem ersten großen Turnier im Golfclub Heddesheim.</br>
-		<b>Veranstaltungsort/Treffpunkt:</b> Members-Lounge (Rückseite des Clubhauses). </br>
-		<b>Veranstalter:</b> GC Heddesheim/Gut Neuzenhof.</br>
+		<p>Heute stellen wir ihnen unsere geniale Webseite vor! Wir hoffen dies erfreut uns so sehr wie uns!
 		</br>
-		Weitere Veranstaltungstermine finden Sie unter <a class="button small green" href="start.php?cat=veranstaltungen&activemenu=2">Veranstaltungen</a>.</p>							
+		Coole Sache das ganze!
+		<br>
+		Weitere Veranstaltungstermine finden Sie unter <a class="button small green" href="start.php?cat=servlet&activemenu=4">Veranstaltungen</a>.</p>							
 	</div><!-- .text /-->
 		
 	</div><!-- .post-inner /-->
