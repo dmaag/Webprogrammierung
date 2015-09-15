@@ -97,13 +97,11 @@
 					}
 					?>
 						
-						<div>
 							<?php
-							if(isset($_COOKIE['login'])) {
+							/* if(isset($_COOKIE['login'])) {
 								echo "Hallo " . $_COOKIE['login'];
-							}
+							} */
 							?>
-						</div>
 				</div>
 				
 				<!-- Dropdownmenü wird angezeigt, wenn Screen schmal wird Mobile-->
