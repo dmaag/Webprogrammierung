@@ -20,6 +20,7 @@ if($NumRows != 0)
 		$Vorname = $Row['vorname'];
 		
 	}
+	
 	setcookie("login", $Vorname, 0 , "/");
 	
 	

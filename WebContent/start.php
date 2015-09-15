@@ -17,10 +17,11 @@
 	    <link rel="stylesheet" type="text/css" href="css/contactform.css">
 	 
 	<!-- Stylesheetdateien ENDE /-->
+	<!-- Java Script -->
 	 <script type="text/javascript" src="../src/extras.js"></script>
 	 <script type="text/javascript" src="../src/storage.js"></script>
 	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    
+    <!-- Java Script ENDE -->
 	<!-- Viewport skalliert die Seite für Mobile-Devices Faktor 1 = 100% -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -79,19 +80,23 @@
 					</li>
 					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
 						<a href="start.php?cat=extras&activemenu=7">Extras<span class="sub-indicator"></span></a>
-												<ul class="sub-menu">
-						
+						<ul class="sub-menu">
 							<li class="menu-item"><a href="start.php?cat=funfacts&activemenu=7">Fun Facts</a></li>
 							<li class="menu-item"><a href="start.php?cat=localstorage&activemenu=7">Caddy Tool</a></li>
 							<li class="menu-item"><a href="start.php?cat=servlet&activemenu=7">Servlet Test</a></li>
+						
 						</ul>
 						
-						<div class="menu-item" align="right">
+						<div class="main-item" align="right" ">
+						<div class="cookie">
+						<li>
 							<?php
 							if(isset($_COOKIE['login'])) {
 								echo "Hallo " . $_COOKIE['login'];
 							}
 							?>
+							</li>
+							</div>
 						</div>
 				</div>
 				

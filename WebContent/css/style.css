@@ -207,6 +207,13 @@ header {
 			height:auto !important;
 			width:auto;
 		}
+		#main-nav .menu-item .cookie{
+		font-size:15px;
+		position: relative;
+		display: inline-block;
+		float: right;
+		
+		}
 
 /* ---------------------------------------------
  Content

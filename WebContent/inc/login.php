@@ -1,7 +1,7 @@
 <article class="post post-listing">
 	<div class="post-inner">
 		<h1 class="post-title">Anmeldung</h1>
-	    
+	     <script type="text/javascript" src="../src/extras.js"></script>
 	    
 	<div class="clear"></div>
 	

@@ -2,7 +2,6 @@
 	<div class="post-inner">
 		<h1 class="post-title">Registrierung</h1>
 	    
-	    
 	<div class="clear"></div>
 	
 	<div class="text">
@@ -23,7 +22,7 @@
 				Passwort:<br>
 					<input type="password" name="pwd" required>
 				<br><br>
-				<input type="submit" value="Registrieren">
+				<input type="submit" value="Registrieren" >
 			</form>	
 	</div><!-- .text /-->
 		
