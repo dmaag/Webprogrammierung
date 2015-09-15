@@ -17,11 +17,9 @@
 	    <link rel="stylesheet" type="text/css" href="css/contactform.css">
 	 
 	<!-- Stylesheetdateien ENDE /-->
-<<<<<<< HEAD
+
 	<!-- Java Script -->
-=======
-	
->>>>>>> origin/master
+
 	 <script type="text/javascript" src="../src/extras.js"></script>
 	 <script type="text/javascript" src="../src/storage.js"></script>
 	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -91,46 +89,28 @@
 						<ul class="sub-menu">
 							<li class="menu-item"><a href="start.php?cat=funfacts&activemenu=7">Fun Facts</a></li>
 							<li class="menu-item"><a href="start.php?cat=localstorage&activemenu=7">Caddy Tool</a></li>
-<<<<<<< HEAD
+							<li class="menu-item"><a href="start.php?cat=clock&activemenu=7">Uhrzeit</a></li>
 							<li class="menu-item"><a href="start.php?cat=servlet&activemenu=7">Servlet Test</a></li>
 						
-=======
 							<li class="menu-item"><a href="http://localhost:8080/gcdhbw/index.jsp">Datum</a></li>
->>>>>>> origin/master
+							
+
 						</ul>
 -->
-						
+					 
 					<?php 
 					if(isset($_COOKIE['login'])) {
 						include 'inc/mitgliedermenu.php';
 					}
 					?>
-						
-<<<<<<< HEAD
-						<div class="main-item" align="right" ">
-						<div class="cookie">
-						<li>
-						<!-- 	<?php
-							if(isset($_COOKIE['login'])) {
-								echo "Hallo " . $_COOKIE['login'];
-							}
-							?>-->
-							</li> 
-							</div>
-							<form align="right" id="Logout2" name="logout" method="post" action="./inc/logout.php">
-  							<label class="logoutLblPos">
-  							<input name="submit" class="submit" type="submit" value="Abmelden" onsubmit="logout()">
- 							 </label>
-							</form>
-						</div>
-=======
-							<?php
-							/* if(isset($_COOKIE['login'])) {
-								echo "Hallo " . $_COOKIE['login'];
-							} */
-							?>
->>>>>>> origin/master
-				</div>
+					</div>
+					<canvas id="canvas" width="50" height="50" style="background-color:#white">
+					<script type="text/javascript" src="../src/clock.js">
+						function drawClock();
+					</script></canvas>	
+
+			
+				
 				
 				<!-- Dropdownmenü wird angezeigt, wenn Screen schmal wird Mobile-->
 				<select id="main-menu-mob" onchange="location = this.options[this.selectedIndex].value;">
@@ -150,6 +130,7 @@
 					<option value="start.php?cat=funfacts&activemenu=7">--- Fun Facts</option>
 					<option value="start.php?cat=localstorage&activemenu=7">--- Caddy Tool</option>
 					<option value="http://localhost:8080/gcdhbw/index.jsp">---Datum</option>
+				<option value=start.php?cat=clock&activemenu=7">---Uhr</option>
 				</select>	
 		</nav><!-- .main-nav /-->
 	
@@ -177,6 +158,7 @@
 				case 'servlet': include 'inc/servlettest.php'; break;
 				case 'localstorage': include 'inc/localstorage.php'; break;
 				case 'extras': include 'inc/extras.php'; break;
+				case 'clock': include 'inc/clock.php'; break;
 				default: include 'inc/Startseite.php';break;
 			}
 			

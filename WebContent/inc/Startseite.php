@@ -9,7 +9,7 @@
 	<div class="clear"></div>
 	
 	<div class="text">
-		<p>Herzlich willkommen auf der Internetpräsens des Golfclub DHBW! Seit 2007 organisieren wir Events und Partien für die golfbegeisterten Studenten der dualen Hochschule Baden-Würtemmberg.</p>
+		<p>Herzlich willkommen auf der Internetpräsens des Golfclub DHBW! Seit 2007 organisieren wir Events und Partien für die golfbegeisterten Studenten der dualen Hochschule Baden-Württemberg.</p>
 		<p> Wir freuen uns über die großartige Zusammarbeit der lokalen Golfclubs mit den verschiedenen Standorten der DHBW, die immer wieder einzigartige Turniere organisieren.</p>
 		
 		<p>Viel Spaß und frohes Spiel!<br>- <em> Ihr GC DHBW Team</em></p>		

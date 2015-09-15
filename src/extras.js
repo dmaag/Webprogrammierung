@@ -1,16 +1,10 @@
 function wechsel() {
   // sichtbar/unsichtbar
-<<<<<<< HEAD
   if (document.getElementByClassName('cookie').style.visibility == 'hidden')
     document.getElementByClassName('cookie').style.visibility = 'visible';
   else
     document.getElementByClassName('#main-nav .cookie').style.visibility = 'hidden';
-=======
-  if (document.getElementById('extras').style.visibility == 'hidden')
-    document.getElementById('extras').style.visibility = 'visible';
-  else
-    document.getElementById('extras').style.visibility = 'hidden';
->>>>>>> origin/master
+
 }
 
 function doIt() {
