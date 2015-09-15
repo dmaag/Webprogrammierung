@@ -751,3 +751,8 @@ footer {
 #localstorage ol li {
     font-size: 16px;
 }
+
+#extras{
+	visibility: hidden;
+	
+}

@@ -17,45 +17,9 @@
 	    <link rel="stylesheet" type="text/css" href="css/contactform.css">
 	 
 	<!-- Stylesheetdateien ENDE /-->
-	
-	<script type="text/javascript">
-        
-        function doIt() {
- 
-            //erstellen des requests
-            var req = new XMLHttpRequest();
-
-            var number = Math.floor(Math.random() * 3) + 1  ;
-            var url;
-
-            switch(number) {
-            case 1:
-            	url = 'http://localhost/xampp/webprogrammierung/WebContent/inc/funfacts/sheepfarm.txt';
-                break;
-            case 2:
-            	url = 'http://localhost/xampp/webprogrammierung/WebContent/inc/funfacts/wood.txt';
-                break;
-            case 3:
-            	url = 'http://localhost/xampp/webprogrammierung/WebContent/inc/funfacts/lorem.txt';
-                break;
-            default:
-                url = 'http://localhost/xampp/webprogrammierung/WebContent/inc/funfacts/hello.txt';
-        	}
-
-            //request ist asynchron
-            req.open("GET", url, true);
- 
-            req.onreadystatechange = function() {
-            
-                 var result = "<p>" + req.responseText + "</p>";
-                 document.getElementById('eins').innerHTML = result;  
-                
-            }
- 
-            req.send(null);
-        }
- 
-    </script>
+	 <script type="text/javascript" src="../src/extras.js"></script>
+	 <script type="text/javascript" src="../src/storage.js"></script>
+	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     
 	<!-- Viewport skalliert die Seite für Mobile-Devices Faktor 1 = 100% -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -114,12 +78,14 @@
 						<a href="start.php?cat=impressum&activemenu=6">Impressum</a>
 					</li>
 					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
-						<a href="start.php?cat=funfacts&activemenu=7">Extras<span class="sub-indicator"></span></a>
-						<ul class="sub-menu">
+						<a href="start.php?cat=extras&activemenu=7">Extras<span class="sub-indicator"></span></a>
+												<ul class="sub-menu">
+						
 							<li class="menu-item"><a href="start.php?cat=funfacts&activemenu=7">Fun Facts</a></li>
 							<li class="menu-item"><a href="start.php?cat=localstorage&activemenu=7">Caddy Tool</a></li>
 							<li class="menu-item"><a href="start.php?cat=servlet&activemenu=7">Servlet Test</a></li>
-				</ul>
+						</ul>
+						
 						<div class="menu-item" align="right">
 							<?php
 							if(isset($_COOKIE['login'])) {
@@ -172,6 +138,7 @@
 				case 'funfacts': include 'inc/funfacts.php'; break;
 				case 'servlet': include 'inc/servlettest.php'; break;
 				case 'localstorage': include 'inc/localstorage.php'; break;
+				case 'extras': include 'inc/extras.php'; break;
 				default: include 'inc/Startseite.php';break;
 			}
 			

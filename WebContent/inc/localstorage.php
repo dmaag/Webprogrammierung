@@ -3,10 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <title>Aufgabenplaner mit localStorage</title>   
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-        <script type="text/javascript" src="../src/storage.js"></script>
     </head>
-    
+     <script type="text/javascript" src="../src/storage.js"></script>
+	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <body>
     <article class="post post-listing">
 	<div class="post-inner">

@@ -37,6 +37,7 @@ $activemenu = $_POST['activemenu'];
 if(isset($_POST['cat']) AND isset($_POST['activemenu'])){	header('Location: ../start.php?cat='.$cat.'&activemenu='.$activemenu.'');}
 else{														header('Location: ../start.php');}  
 
+
 exit();
 }
 else

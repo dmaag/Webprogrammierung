@@ -13,7 +13,7 @@
 				Passwort:<br>
 					<input type="password" name="pwd" required>
 				<br><br>
-				<input type="submit" value="Anmelden">
+				<input type="submit" value="Anmelden" onclick="wechsel()">
 			</form>	
 		<p>Noch kein Mitglied <a href="start.php?cat=signup&activemenu=3">hier</a> registrieren.</p>
 	</div><!-- .text /-->
