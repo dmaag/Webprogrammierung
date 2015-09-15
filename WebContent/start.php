@@ -17,7 +17,11 @@
 	    <link rel="stylesheet" type="text/css" href="css/contactform.css">
 	 
 	<!-- Stylesheetdateien ENDE /-->
+<<<<<<< HEAD
 	<!-- Java Script -->
+=======
+	
+>>>>>>> origin/master
 	 <script type="text/javascript" src="../src/extras.js"></script>
 	 <script type="text/javascript" src="../src/storage.js"></script>
 	 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -62,12 +66,16 @@
 						</ul>
 					</li>
 					<li class="menu-item <?php if($_GET['activemenu']==4){echo'current-menu-item';}?>">
+						<a href="start.php?cat=servlet&activemenu=4">Veranstaltungen</a>
+					</li>
+<!-- 					<li class="menu-item <?php if($_GET['activemenu']==4){echo'current-menu-item';}?>">
 						<a href="#">Spielbetrieb <span class="sub-indicator"></span></a>
 						<ul class="sub-menu">
 							<li class="menu-item"><a href="start.php?cat=days&activemenu=4">Days</a></li>
 							<li class="menu-item"><a href="start.php?cat=turniere&activemenu=4">Turniere</a></li>
 						</ul>
 					</li>
+-->
 					<li class="menu-item <?php if($_GET['activemenu']==5){echo'current-menu-item';}?>">
 						<a href="#">Kontakt <span class="sub-indicator"></span></a>
 						<ul class="sub-menu">
@@ -78,15 +86,27 @@
 					<li class="menu-item <?php if($_GET['activemenu']==6){echo'current-meno-item';}?>">
 						<a href="start.php?cat=impressum&activemenu=6">Impressum</a>
 					</li>
-					<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
+<!-- 				<li class="menu-item <?php if($_GET['activemenu']==7){echo'current-meno-item';}?>">
 						<a href="start.php?cat=extras&activemenu=7">Extras<span class="sub-indicator"></span></a>
 						<ul class="sub-menu">
 							<li class="menu-item"><a href="start.php?cat=funfacts&activemenu=7">Fun Facts</a></li>
 							<li class="menu-item"><a href="start.php?cat=localstorage&activemenu=7">Caddy Tool</a></li>
+<<<<<<< HEAD
 							<li class="menu-item"><a href="start.php?cat=servlet&activemenu=7">Servlet Test</a></li>
 						
+=======
+							<li class="menu-item"><a href="http://localhost:8080/gcdhbw/index.jsp">Datum</a></li>
+>>>>>>> origin/master
 						</ul>
+-->
 						
+					<?php 
+					if(isset($_COOKIE['login'])) {
+						include 'inc/mitgliedermenu.php';
+					}
+					?>
+						
+<<<<<<< HEAD
 						<div class="main-item" align="right" ">
 						<div class="cookie">
 						<li>
@@ -103,6 +123,13 @@
  							 </label>
 							</form>
 						</div>
+=======
+							<?php
+							/* if(isset($_COOKIE['login'])) {
+								echo "Hallo " . $_COOKIE['login'];
+							} */
+							?>
+>>>>>>> origin/master
 				</div>
 				
 				<!-- Dropdownmenü wird angezeigt, wenn Screen schmal wird Mobile-->
@@ -115,13 +142,14 @@
 					<option value="start.php?cat=mitgliedschaft&activemenu=3">>> Mitgliedschaft</option>
 					<option value="start.php?cat=login&activemenu=3">--- Anmeldung</option>
 					<option value="start.php?cat=signup&activemenu=3">--- Registrierung</option>
-					<option value="start.php?cat=days&activemenu=4">--- Days</option>
-					<option value="start.php?cat=turniere&activemenu=4">--- Turniere</option>
+					<option value="start.php?cat=servlet&activemenu=4">>> Veranstaltungen</option>
 					<option value="start.php?cat=kontakt&activemenu=5">--- Kontakt</option>
 					<option value="start.php?cat=anfahrt&activemenu=5">--- Anfahrt</option>
 					<option value="start.php?cat=impressum&activemenu=6">>> Impressum</option>
-					<option value="start.php?cat=funfacts&activemenu=7">>> Fun Facts</option>
-					<option value="start.php?cat=servlet&activemenu=7">>> Servlet Test</option>
+					<option value="start.php?cat=extras&activemenu=7">>> Mitglieder Only</option>
+					<option value="start.php?cat=funfacts&activemenu=7">--- Fun Facts</option>
+					<option value="start.php?cat=localstorage&activemenu=7">--- Caddy Tool</option>
+					<option value="http://localhost:8080/gcdhbw/index.jsp">---Datum</option>
 				</select>	
 		</nav><!-- .main-nav /-->
 	
