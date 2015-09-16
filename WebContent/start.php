@@ -96,20 +96,18 @@
 							
 
 						</ul>
--->
-					 
+
+-->				 
 					<?php 
 					if(isset($_COOKIE['login'])) {
 						include 'inc/mitgliedermenu.php';
 					}
 					?>
-					</div>
+					</div> 
 					<canvas id="canvas" width="50" height="50" style="background-color:#white">
 					<script type="text/javascript" src="../src/clock.js">
 						function drawClock();
 					</script></canvas>	
-
-			
 				
 				
 				<!-- Dropdownmenü wird angezeigt, wenn Screen schmal wird Mobile-->

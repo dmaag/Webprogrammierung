@@ -28,9 +28,9 @@
 	<div class="clear"></div>
 	
 	<div class="text">
-		<p>Heute stellen wir ihnen unsere geniale Webseite vor! Wir hoffen dies erfreut uns so sehr wie uns!
+		<p>Heute stellen wir ihnen unsere geniale Webseite vor! Wir hoffen dies erfreut Sie so sehr wie uns!
 		</br>
-		Coole Sache das ganze!
+		Coole Sache das Ganze!
 		<br>
 		Weitere Veranstaltungstermine finden Sie unter <a class="button small green" href="start.php?cat=servlet&activemenu=4">Veranstaltungen</a>.</p>							
 	</div><!-- .text /-->
